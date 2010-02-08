@@ -1,0 +1,17 @@
+body { line-height:1; font-size:62.5%; font-family: Arial, Helvetica, Verdana, sans-serif; color: #575757;}
+h1, h2, h3, h4, h5, h6 { font-height: bold; }
+h1, h2 { color: #7b7b7b; }
+h3, h4 { color: #043158; }
+h2 { font-size: 22px; }
+p { font-size:16px; margin-bottom:16px; }
+a { color: #898989; }
+.notext { font-size: 0; line-height: 0; text-indent: -4000px; }
+
+
+/* Contato */
+#contato { width: 50%; }
+#contato fieldset { border: none; }
+#contato fieldset label { display: block; color: #0078b0; padding: 6px 0 3px 6px; font-size: 16px; }
+#contato fieldset .text { width: 400px; padding: 5px; background: #ffffff; border: 0px; -moz-border-radius: 6px; -webkit-border-radius: 6px; }
+#contato fieldset textarea { height: 200px; }
+#contato #enviar { background: #0078b0; color: #ffffff; border: 1px solid #0078b0; font-size: 20px; font-weight: bold; cursor: pointer; -moz-border-radius: 4px; -webkit-border-radius: 4px;}

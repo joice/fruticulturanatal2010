@@ -1,0 +1,14 @@
+!!! Strict
+%html{ :xmlns => "http://www.w3.org/1999/xhtml" }
+  %head
+    %title XXI Congresso Brasileiro de Fruticultura
+    %meta{ :content => "text/html; charset=UTF-8", "http-equiv" => "Content-Type" }
+    %meta{ :name => "author", :content => "Participe.de - Tink!" }
+    %meta{ :name => "description", :content => "XXI Congresso Brasileiro de Fruticultura" }
+    %meta{ :name => "keywords", :content => "XXI, congresso, brasileiro, fruticultura" }
+    - %w(reset text 960 style sifr).each do |css_file|
+      = css_tag("#{css_file}.css")
+    %script{ :type => "text/javascript", :src => "http://ajax.googleapis.com/ajax/libs/jquery/1.3.2/jquery.min.js" }
+    - %w(sifr sifr-config theme).each do |js_file|
+      = script_tag("#{js_file}.js")
+  %body
