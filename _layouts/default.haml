@@ -12,3 +12,20 @@
     - %w(sifr sifr-config theme).each do |js_file|
       = script_tag("#{js_file}.js")
   %body
+    #header
+      %div{:class => "container_12 #{layout_type}"}
+        #menu.grid_12
+          %ul
+            - site.posts.each do |post|
+              %li{:class => "#{'current' if (page.title == post.title)}"}
+                %a{ :href => post.url}= post.title
+        #fruits.grid_12
+          .grid_8.prefix_2
+            %h1 Frutas: Saúde, inovação e sustentabilidade.
+        #banner.grid_12
+          #congresso.grid_4.prefix_1.alpha
+            %img{ :src => "images/bg/bg-congresso.png", :alt => "XXI Congresso Brasileiro de Fruticultura" } 
+          .grid_5.prefix_2.omega
+            %img{ :src => "images/bg/bg-fruits.png", :alt => "XXI Congresso Brasileiro de Fruticultura" }
+    %a.sbf{ :href => "http://www.sbfruti.com.br/associa.htm", :title => "Associe-se na SBF", :target => "_blank"}
+      %img{ :src => "images/bg/bg-selo.png", :height => "126", :alt => "Associe-se na SBF"}
