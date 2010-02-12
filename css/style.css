@@ -14,10 +14,11 @@ a { color: #898989; }
 #menu li a { text-decoration: none; color: #FFFFFF; display: block;}
 #menu .current a { color: #FFDD00; }
 #menu a:hover { text-decoration: underline; }
-#fruits h1 { font-size: 26px; margin-bottom: 0; }
+#fruits h1 { font-size: 26px; margin-bottom: 0; margin-top: 3px; }
 #banner { text-align: center; }
-#congresso img{ margin-top: 12px; }
+#congresso img{ margin-top: 8px; }
 #congresso .date { margin-top: 35px; }
+#banner .cxfruit { margin-top: -12px; }
 
 #footer { display: block; height: 152px; background: url(../images/bg/bg-footer.jpg) no-repeat; }
 

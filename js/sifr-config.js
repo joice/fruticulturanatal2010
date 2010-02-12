@@ -7,7 +7,7 @@ sIFR.activate(kozuka_el,officina_bold, kristen_itc);
 sIFR.replace(kristen_itc, { 
   selector: '#fruits h1',
   css: [ 
-    '.sIFR-root { font-size: 26px; color: #FFCF00; margin-left: 43px; }'
+    '.sIFR-root { font-size: 25px; color: #FDDE12; margin-left: 43px; }'
   ],
   wmode: 'transparent'
 });
