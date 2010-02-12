@@ -16,7 +16,27 @@ a { color: #898989; }
 #menu a:hover { text-decoration: underline; }
 #fruits h1 { font-size: 26px; margin-bottom: 0; }
 #banner { text-align: center; }
-#congresso img{ margin-top: 20px; }
+#congresso img{ margin-top: 12px; }
+#congresso .date { margin-top: 35px; }
+
+#footer { display: block; height: 152px; background: url(../images/bg/bg-footer.jpg) no-repeat; }
+
+#sponsor { margin-top: 35px; text-align: center; }
+#sponsor h6 { font-family: Tahoma; font-size: 10px; font-weight: normal; margin-bottom: 5px;  }
+
+#promocao { margin-left: 30px; }
+#promocao .sep { margin-left: 3px; }
+
+#realizacao { margin-left: -30px; }
+#realizacao img { padding-right: 5px; padding-top: 3px; }
+#realizacao .sep { margin-left: 295px; margin-top: -57px; }
+
+#apoio { margin-left: -17px; }
+#apoio img { padding-right: 5px; }
+#apoio .sep { margin-left: 3px;}
+
+#organizacao { margin-left: -45px; }
+#organizacao img { margin-top: 10px; }
 
 .sbf { position: absolute; right: 0; top: 72px; }
 
