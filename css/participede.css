@@ -1,10 +1,8 @@
-body {
-  font: normal 11px auto Arial, Verdana, Helvetica, sans-serif; margin: 0;
-}
+body { font: normal 11px auto Arial, Helvetica, Verdana, sans-serif; margin: 0; }
 
-a {
-  color: #c75f3e;
-}
+#trabcient h2 { display: block; color: #043158; font-size: 45px; margin-bottom: 20px; }
+#trabcient p { font-size: 14px; margin-bottom: 20px; margin-left: 10px; color: #898989; }
+#trabcient a { color: #043158; }
 
 /* Tabela */
 
