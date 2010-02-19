@@ -9,8 +9,11 @@
     - %w(reset text 960 style sifr).each do |css_file|
       = css_tag("#{css_file}.css")
     %script{ :type => "text/javascript", :src => "http://ajax.googleapis.com/ajax/libs/jquery/1.3.2/jquery.min.js" }
-    - %w(sifr sifr-config jquery.cycle.lite theme ).each do |js_file|
+    - %w(sifr sifr-config).each do |js_file|
       = script_tag("#{js_file}.js")
+    - unless layout_type == 'internal_page'
+      - %w(jquery.cycle.lite theme).each do |js_file|
+        = script_tag("#{js_file}.js")
   %body
     #header
       %div{:class => "container_12 #{layout_type}"}
