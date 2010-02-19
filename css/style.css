@@ -1,10 +1,9 @@
-body { line-height:1; font-size:62.5%; font-family: Arial, Helvetica, Verdana, sans-serif; color: #575757; background: url(../images/bg/bg-sky.jpg) repeat-x top;}
+body { line-height:1; font-size:62.5%; font-family: Arial, Helvetica, Verdana, sans-serif; color: #898989; background: url(../images/bg/bg-sky.jpg) repeat-x top;}
 h1, h2, h3, h4, h5, h6 { font-height: bold; }
 h1, h2 { color: #7b7b7b; }
 h3, h4 { color: #043158; }
-h2 { font-size: 22px; }
-p { font-size:16px; margin-bottom:16px; }
 a { color: #898989; }
+p { font-size: 14px; margin-bottom: 20px; }
 .notext { font-size: 0; line-height: 0; text-indent: -4000px; }
 
 #header { display: block; height: 74px; background: #107096 repeat-x top; }
@@ -20,7 +19,29 @@ a { color: #898989; }
 #congresso .date { margin-top: 35px; }
 #banner .cxfruit { margin-top: -12px; }
 
-#footer { display: block; height: 152px; background: url(../images/bg/bg-footer.jpg) no-repeat; }
+#content { text-align: justify; }
+#content .slider { border: none; height: 201px; background: url(../images/bg/bg-slideshow.png) no-repeat;}
+#content .container_slider { height: auto; }
+#content .slider .inside { height:210px; margin:10px; }
+#content .counter { background: url(../images/bg/bg-count.jpg) no-repeat right top; height: 88px; padding-top: 6px; margin-top: 20px; text-align: center}
+#content .counter #countdown { font-size: 6.6em; font-family: Georgia; color: #FFFFFF; line-height: 80%; padding-left: 35px;  }
+#content h2 { font-size: 45px; margin-bottom: 50px;  }
+#content ul { list-style-type: none; }
+#content ol { margin-left: 20px; }
+#content ul li, #content ol li { font-size: 14px; }
+#content ul li a, #content ol li a { font-weight: bold; }
+#content .imgBox { height: 201; position: absolute; z-index: 9999; border: 0 none; }
+#content .comissao li { margin-bottom: 25px; }
+#content .ul_disc { list-style-type: disc; margin-left: 15px;  }
+#content .ul_disc li { margin-bottom: 5px; }
+#content .ul_disc a.mail { text-decoration: none; }
+#content .trab_cient { margin-left: 40px; }
+#content #local img, #content #parceiros img { padding-right: 20px; margin-bottom: 5px; }
+#content #parceiros img { margin-bottom: 30px;}
+#content h2.parceiros { font-size: 30px; margin-bottom: 20px;  }
+#content #agencia { text-align: center; }
+
+#footer { display: block; height: 152px; margin-top: 61px; background: url(../images/bg/bg-footer.jpg) no-repeat; }
 
 #sponsor { margin-top: 35px; text-align: center; }
 #sponsor h6 { font-family: Tahoma; font-size: 10px; font-weight: normal; margin-bottom: 5px;  }
@@ -41,10 +62,33 @@ a { color: #898989; }
 
 .sbf { position: absolute; right: 0; top: 72px; }
 
+/* Home page slideshow */
+.slideshow { position:relative; overflow:hidden; height:210px; }
+.slideshow img { width: 680px; height: 200px; }
+
+/* Tabela Desistência */
+#des_reem th, #des_reem td { border: 1px solid; }
+#des_reem tr { font-size: 12px; }
+#des_reem td, #des_reem th { padding: 5px; }
+#des_reem th { background: #107096; color: #FFFFFF; font-size: 12px; }
+#des_reem .center { text-align: center; }
+
+/* Tabela Programação */
+#programacao { font-size: 12px; text-align: center; }
+#programacao th, #programacao td { border: 1px solid; vertical-align: middle; }
+#programacao th { font-weight: bold; padding: 5px; background: #cdddea; }
+#programacao td { padding: 2px; }
+ 
+/* Tabela Hospedagem */
+#hospedagem { font-size: 12px; width: 757px; }
+#hospedagem td, #hospedagem th { padding: 5px; vertical-align: middle;  text-align: center; border: 1px solid; width: 84px; }
+#hospedagem th { background: #107096; font-weight: bold; color: #FFFFFF; }
+#hospedagem td.big-font { font-size: 16px; }
+
 /* Contato */
-#contato { width: 50%; }
 #contato fieldset { border: none; }
-#contato fieldset label { display: block; color: #0078b0; padding: 6px 0 3px 6px; font-size: 16px; }
-#contato fieldset .text { width: 400px; padding: 5px; background: #ffffff; border: 0px; -moz-border-radius: 6px; -webkit-border-radius: 6px; }
+#contato fieldset label { margin-left: 15px; display: block; padding: 6px 0 3px 6px; font-size: 14px; }
+#contato fieldset .text { width: 590px; padding: 10px; font-size: 14px; color: #898989; background: #dededd; border: 0px; -moz-border-radius: 10px; -webkit-border-radius: 10px; }
 #contato fieldset textarea { height: 200px; }
-#contato #enviar { background: #0078b0; color: #ffffff; border: 1px solid #0078b0; font-size: 20px; font-weight: bold; cursor: pointer; -moz-border-radius: 4px; -webkit-border-radius: 4px;}
+#contato #enviar { background: #898989; color: #FFFFFF; border: 1px solid; font-size: 20px; font-weight: bold; cursor: pointer; }
+
