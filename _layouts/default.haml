@@ -20,7 +20,7 @@
         #menu.grid_12
           %ul
             - site.posts.each do |post|
-              - if post.categories.include?("es")
+              - if post.categories.include?("pt")
                 %li{:class => "#{'current' if (page.title == post.title)}"}
                   %a{ :href => post.url}= post.title
         #fruits.grid_12
