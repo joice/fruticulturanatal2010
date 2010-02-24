@@ -1,0 +1,17 @@
+---
+layout: default-es
+title: Inicio
+layout_type: start_page
+category: es
+---
+.grid_9.alpha
+  .slider
+    .inside
+      %img.imgBox{ :src => "../images/bg/bg-slideshow.png"}
+      .slideshow
+        - 5.times do |image|
+          %img{ :src => "../images/slides/#{image}.jpg"}
+.counter.grid_3.omega
+  %span#countdown 0 Dias
+.clear
+
