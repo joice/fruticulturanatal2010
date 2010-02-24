@@ -20,8 +20,9 @@
         #menu.grid_12
           %ul
             - site.posts.each do |post|
-              %li{:class => "#{'current' if (page.title == post.title)}"}
-                %a{ :href => post.url}= post.title
+              - if post.categories.include?("es")
+                %li{:class => "#{'current' if (page.title == post.title)}"}
+                  %a{ :href => post.url}= post.title
         #fruits.grid_12
           .grid_8.prefix_2
             %h1 Frutas: Saúde, inovação e sustentabilidade.
