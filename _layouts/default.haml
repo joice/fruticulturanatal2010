@@ -16,23 +16,26 @@
         = script_tag("#{js_file}.js")
   %body
     #header
-      %div{:class => "container_12 #{layout_type}"}
+      .container_12
         #menu.grid_12
           %ul
             - site.posts.each do |post|
               - if post.categories.empty?
                 %li{:class => "#{'current' if (page.title == post.title)}"}
                   %a{ :href => post.url}= post.title
-        #fruits.grid_12
-          .grid_8.prefix_2
-            %h1 Frutas: Saúde, inovação e sustentabilidade.
-        #banner.grid_12
-          #congresso.grid_4.prefix_1.alpha
-            %a{ :href => "/"}
-              %img{ :src => "images/bg/bg-congresso.png", :alt => "XXI Congresso Brasileiro de Fruticultura" }
-            %img.date{ :src => "images/bg/bg-data.png", :alt => "XXI Congresso Brasileiro de Fruticultura" }
-          .grid_5.prefix_2.omega
-            %img.cxfruit{ :src => "images/bg/bg-fruits.png", :alt => "XXI Congresso Brasileiro de Fruticultura" }
+    #bannerzao.container_12
+      #fruits.grid_12
+        .grid_8.prefix_2
+          %h1 Frutas: Saúde, inovação e sustentabilidade.
+      #banner.grid_12
+        #congresso.grid_4.prefix_1.alpha
+          %a{ :href => "/"}
+            %img{ :src => "images/bg/bg-congresso.png", :alt => "XXI Congresso Brasileiro de Fruticultura" }
+          %img.date{ :src => "images/bg/bg-data.png", :alt => "XXI Congresso Brasileiro de Fruticultura" }
+        .grid_5.prefix_2.omega
+          %img.cxfruit{ :src => "images/bg/bg-fruits.png", :alt => "XXI Congresso Brasileiro de Fruticultura" }
+    #conteudo
+      %div{:class => "container_12 #{layout_type}"}
         #content.content_12
           - if layout_type == 'internal_page'
             .grid_10.prefix_1
@@ -41,33 +44,33 @@
           - else
             = content
         .clear
-      #footer.container_12
-        #sponsor.grid_12
-          #promocao.grid_2.prefix_1.alpha
-            %h6 PROMOÇÃO
-            %a{ :href => "http://www.sbfruti.com.br"}
-              %img{ :src => "images/sponsors/logo-sbf.jpg", :alt => "Sociedade Brasileira de Fruticultura - SBF", :height => "70px" }
-            %img.sep{ :src => "images/sponsors/bg-separator.jpg", :height => "70px" }
-          #realizacao.grid_4
-            %h6 REALIZAÇÃO
-            %a{ :href => "http://www.emparn.rn.gov.br"}
-              %img{ :src => "images/sponsors/logo-emparn.png", :alt => "Empresa de Pesquisa Agropecuária do Rio Grande do norte - EMPARN" }
-            %a{ :href => "http://www.ufersa.edu.br"}
-              %img{ :src => "images/sponsors/logo-ufersa.jpg", :alt => "UFERSA" }
-            %a{ :href => "http://www.sebraern.com.br"}
-              %img{ :src => "images/sponsors/logo-sebrae.jpg", :alt => "SEBRAE" }
-            %img.sep{ :src => "images/sponsors/bg-separator.jpg", :height => "70px" }
-          #apoio.grid_3
-            %h6 APOIO
-            %a{ :href => "http://www.natal.rn.gov.br"}
-              %img{ :src => "images/sponsors/prefeitura-natal.jpg", :alt => "Prefeitura do Natal", :height => "55px" }
-            %a{ :href => "http://www.rn.gov.br"}
-              %img{ :src => "images/sponsors/governo-rn.png", :alt => "Governo de Todos", :height => "60px" }
-            %img.sep{ :src => "images/sponsors/bg-separator.jpg", :height => "70px" }
-          #organizacao.grid_2.omega
-            %h6 ORGANIZAÇÃO
-            %a{ :href => "http://www.ideiaseventos.com.br"}
-              %img{ :src => "images/sponsors/logo-ideias.jpg", :alt => "Idéias Eventos", :height => "55px" }
+    #footer.container_12
+      #sponsor.grid_12
+        #promocao.grid_2.prefix_1.alpha
+          %h6 PROMOÇÃO
+          %a{ :href => "http://www.sbfruti.com.br"}
+            %img{ :src => "images/sponsors/logo-sbf.jpg", :alt => "Sociedade Brasileira de Fruticultura - SBF", :height => "70px" }
+          %img.sep{ :src => "images/sponsors/bg-separator.jpg", :height => "70px" }
+        #realizacao.grid_4
+          %h6 REALIZAÇÃO
+          %a{ :href => "http://www.emparn.rn.gov.br"}
+            %img{ :src => "images/sponsors/logo-emparn.png", :alt => "Empresa de Pesquisa Agropecuária do Rio Grande do norte - EMPARN" }
+          %a{ :href => "http://www.ufersa.edu.br"}
+            %img{ :src => "images/sponsors/logo-ufersa.jpg", :alt => "UFERSA" }
+          %a{ :href => "http://www.sebraern.com.br"}
+            %img{ :src => "images/sponsors/logo-sebrae.jpg", :alt => "SEBRAE" }
+          %img.sep{ :src => "images/sponsors/bg-separator.jpg", :height => "70px" }
+        #apoio.grid_3
+          %h6 APOIO
+          %a{ :href => "http://www.natal.rn.gov.br"}
+            %img{ :src => "images/sponsors/prefeitura-natal.jpg", :alt => "Prefeitura do Natal", :height => "55px" }
+          %a{ :href => "http://www.rn.gov.br"}
+            %img{ :src => "images/sponsors/governo-rn.png", :alt => "Governo de Todos", :height => "60px" }
+          %img.sep{ :src => "images/sponsors/bg-separator.jpg", :height => "70px" }
+        #organizacao.grid_2.omega
+          %h6 ORGANIZAÇÃO
+          %a{ :href => "http://www.ideiaseventos.com.br"}
+            %img{ :src => "images/sponsors/logo-ideias.jpg", :alt => "Idéias Eventos", :height => "55px" }
     :javascript
       var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
       document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
