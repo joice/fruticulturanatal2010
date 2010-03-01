@@ -23,8 +23,8 @@ p { font-size: 14px; margin-bottom: 20px; }
 #content .slider { border: none; height: 201px; background: url(../images/bg/bg-slideshow.png) no-repeat;}
 #content .container_slider { height: auto; }
 #content .slider .inside { height:210px; margin:10px; }
-#content .counter { background: url(../images/bg/bg-count.jpg) no-repeat right top; height: 88px; padding-top: 6px; margin-top: 20px; text-align: center}
-#content .counter #countdown { font-size: 6.6em; font-family: Georgia; color: #FFFFFF; line-height: 80%; padding-left: 35px;  }
+#content .counter { background: url(../images/bg/bg-count.jpg) no-repeat right top; height: 100px;}
+#content .counter #countdown { font-size: 6em; font-family: Georgia; color: #FFFFFF; padding-left: 35px;  }
 #content h2 { font-size: 45px; margin-bottom: 50px;  }
 #content ul { list-style-type: none; }
 #content ol { margin-left: 20px; }
