@@ -9,7 +9,7 @@ p { font-size: 14px; margin-bottom: 20px; }
 #header { display: block; height: 74px; background: #107096 repeat-x top; }
 #menu ul { padding-top: 31px; padding-bottom: 20px; }
 #menu ul li { display: inline; font-size: 13px; padding-right: 2.5px;}
-#menu li { background: transparent url(../images/bg/bg-icon-menu.png) no-repeat scroll left; float: left; padding-left: 14px; margin-right: 5px; }
+#menu li { background: transparent url(../images/bg/bg-icon-menu.gif) no-repeat scroll left; float: left; padding-left: 14px; margin-right: 5px; }
 #menu li a { text-decoration: none; color: #FFFFFF; display: block;}
 #menu .current a { color: #FFDD00; }
 #menu a:hover { text-decoration: underline; }
