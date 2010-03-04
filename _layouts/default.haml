@@ -71,8 +71,8 @@
     - %w(sifr sifr-config jquery.validate localization/messages_ptbr).each do |js_file|
       = script_tag("#{js_file}.js")
     - if variable(:javascript)
-        %script{:type => 'text/javascript'}
-          = variable(:javascript)
+      %script{:type => 'text/javascript'}
+        = variable(:javascript)
     - unless layout_type == 'internal_page'
       - %w(jquery.cycle.lite theme).each do |js_file|
         = script_tag("#{js_file}.js")
