@@ -89,6 +89,7 @@ p { font-size: 14px; margin-bottom: 20px; }
 /* Contato */
 #contato fieldset { border: none; }
 #contato fieldset label { margin-left: 15px; display: block; padding: 6px 0 3px 6px; font-size: 14px; }
+#contato fieldset label.error { color: red; font-size: 12px;}
 #contato fieldset .text { width: 590px; padding: 10px; font-size: 14px; color: #898989; background: #dededd; border: 0px; -moz-border-radius: 10px; -webkit-border-radius: 10px; }
 #contato fieldset textarea { height: 200px; }
 #contato #enviar { background: #898989; color: #FFFFFF; border: 1px solid; font-size: 20px; font-weight: bold; cursor: pointer; }
