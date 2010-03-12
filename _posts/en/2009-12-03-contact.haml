@@ -3,18 +3,18 @@ layout: default-en
 title: Contact
 category: en
 ---
-%p Entre em contato conosco preenchendo corretamente todos os campos abaixo.
+%p Contact us by filling correctly all of the fields below.
   
 %form#contato{ :action => 'http://participe.de/events/xxi-congresso-brasileiro-de-fruticultura/contacts', :method => 'post' }
   %fieldset
-    %label Nome:
+    %label Name:
     %input.text{ :name => 'nome' }
-    %label E-mail:
+    %label Email:
     %input.text{ :name => 'email' }
-    %label Telefone:
+    %label Cel Phone Number:
     %input.text{ :name => 'telefone' }
-    %label Mensagem:
+    %label Message:
     %textarea.text{ :name => 'mensagem' }
     %br
     %br
-    %input#enviar{ :name => 'submit', :value => 'enviar', :type => 'submit' }
+    %input#enviar{ :name => 'submit', :value => 'Submit', :type => 'submit' }
