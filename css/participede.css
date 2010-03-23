@@ -28,3 +28,22 @@ h2.head {display:none;}
 .participede table {margin-bottom:20px;}
 
 .subscribe_button { padding: 10px;}
+
+.program {
+  width: 910px;
+}
+
+.program .activity {
+  font-size: 11px;
+  padding: 0;
+}
+
+.program .activity div {
+  width: 75%;
+  margin-right: 5px;
+}
+
+.program .activity input[type="radio"] {
+  margin: 2px;
+  padding: 0;
+}
