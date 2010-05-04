@@ -41,6 +41,7 @@ p { font-size: 14px; margin-bottom: 20px; }
 #content .trab_cient { margin-left: 40px; }
 #content #local img, #content #parceiros img { padding-right: 20px; margin-bottom: 5px; }
 #content #parceiros img { margin-bottom: 30px;}
+#content #parceiros img#sebrae { margin-top: -10px; }
 #content h2.parceiros { font-size: 30px; margin-bottom: 20px;  }
 #content #agencia { text-align: center; }
 
