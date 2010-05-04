@@ -2,6 +2,8 @@ body { line-height:1; font-size:62.5%; font-family: Arial, Helvetica, Verdana, s
 h1, h2, h3, h4, h5, h6 { font-height: bold; }
 h1, h2 { color: #7b7b7b; }
 h3, h4 { color: #043158; }
+#observacoes_popup h2 { color: #043158; }
+#observacoes_popup p, #observacoes_popup h2 {text-align:center;}
 a { color: #898989; }
 p { font-size: 14px; margin-bottom: 20px; }
 .notext { font-size: 0; line-height: 0; text-indent: -4000px; }
@@ -98,3 +100,4 @@ p { font-size: 14px; margin-bottom: 20px; }
 #contato fieldset textarea { height: 200px; }
 #contato #enviar { background: #898989; color: #FFFFFF; border: 1px solid; font-size: 20px; font-weight: bold; cursor: pointer; }
 
+#observacoes_popup{display:none;}
