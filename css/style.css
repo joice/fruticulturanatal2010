@@ -84,7 +84,7 @@ p { font-size: 14px; margin-bottom: 20px; }
 #programacao { font-size: 12px; text-align: center; width: 780px; }
 #programacao th, #programacao td { border: 1px solid; vertical-align: middle; }
 #programacao th { font-weight: bold; padding: 5px; background: #cdddea; }
-#programacao td { padding: 2px; }
+#programacao td { padding: 10px; }
  
 /* Tabela Hospedagem */
 #hospedagem { font-size: 12px; width: 757px; }
