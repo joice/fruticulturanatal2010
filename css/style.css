@@ -101,4 +101,4 @@ p { font-size: 14px; margin-bottom: 20px; }
 #contato fieldset textarea { height: 200px; }
 #contato #enviar { background: #898989; color: #FFFFFF; border: 1px solid; font-size: 20px; font-weight: bold; cursor: pointer; }
 
-#observacoes_popup{display:none;}
+#observacoes_popup{display:none; text-align:center;}
