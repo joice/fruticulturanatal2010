@@ -2,7 +2,7 @@
 layout: default
 title: Início
 layout_type: start_page 
-javascript_imports: jquery.fancybox-1.3.1.pack anuncio-agencia
+javascript_imports: jquery.fancybox-1.3.1.pack
 ---
 .grid_9.alpha
   .slider
@@ -15,10 +15,3 @@ javascript_imports: jquery.fancybox-1.3.1.pack anuncio-agencia
   %span#countdown 0 Dias
   %script{ :src => '../js/counter.js', :type => 'text/javascript' }
 .clear
-
-%a(href='#observacoes_popup' id='observacao_link' style='display:none;')
-%div#observacoes_popup
-  %h2 Promoção
-
-  %a(href='/inscricao')
-    %img(src='/images/expofruit-promocao.jpg' height='250px')
