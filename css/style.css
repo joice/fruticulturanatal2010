@@ -49,26 +49,28 @@ p { font-size: 14px; margin-bottom: 20px; }
 #content h2.parceiros { font-size: 30px; margin-bottom: 20px;  }
 #content #agencia { text-align: center; }
 
-#footer { display: block; height: 170px; margin-top: 61px; background: url(../images/bg/bg-footer.jpg) no-repeat; }
+#footer { display: block; height: 170px; margin-top: 61px; background: url(../images/bg/bg-footer0.jpg) no-repeat; }
 
-#sponsor { margin-top: 35px; text-align: center; display: none; }
+#sponsor { margin-top: 35px; text-align: center; }
 #sponsor h6 { font-size: 10px; font-weight: normal; margin-bottom: 5px;  }
 
-#promocao { margin-left: 30px; }
+#promocao { margin-left: 20px; }
 #promocao .sep { margin-left: 10px; }
 
-#realizacao { margin-left: -25px; }
-#realizacao img { padding-right: 29px; padding-top: 3px; }
-#realizacao .sep { margin-left: 358px; margin-top: -57px; }
+#realizacao { margin-left: -37px; }
+#realizacao img { padding-top: 3px; }
+#realizacao img#ufersa { margin-bottom: 12px; padding-right: 5px; }
+#realizacao .sep { margin-top: -21px; }
 
-#apoio { margin-left: -50px; }
-#apoio img { padding-left: 20px; }
+#apoio { margin-left: -55px; }
 #apoio .sep { margin-left: -2px;}
-#apoio h6 { margin-left: 7px; }
 
+#apoio-imagens {margin-top: -7px;}
 
 #organizacao { margin-left: -29px; }
-#organizacao img { margin-top: 10px; }
+#organizacao .sep { margin-left: -150px; margin-top: 22px; }
+#organizacao-imagens {margin-left: -47px; margin-top: -93px; }
+#organizacao-imagens img { margin-top: 10px; }
 
 .sbf { position: absolute; right: 0; top: 80px; }
 
