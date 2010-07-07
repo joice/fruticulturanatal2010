@@ -3,9 +3,9 @@ require 'action_view'
 module Helpers
   include ActionView::Helpers::TagHelper
 
-  def variable(name)
+  def variable(name, obj = page)
     begin
-      page.send(name)
+      obj.send(name)
     rescue
       return nil
     end

@@ -10,9 +10,9 @@
       = css_tag("#{css_file}.css")
     - %w(sifr sifr-config).each do |js|
       = script_tag("#{js}.js")
-    / [if IE]<link rel="stylesheet" href="css/png_fix.css" type="text/css" /><![endif]
-    / [if IE 6]<link rel="stylesheet" href="css/ie6.css" type="text/css" /><![endif]
-    / [if IE 7]<link rel="stylesheet" href="css/ie7.css" type="text/css" /><![endif]
+    / [if IE]<link rel="stylesheet" href="/css/png_fix.css" type="text/css" /><![endif]
+    / [if IE 6]<link rel="stylesheet" href="/css/ie6.css" type="text/css" /><![endif]
+    / [if IE 7]<link rel="stylesheet" href="/css/ie7.css" type="text/css" /><![endif]
   %body
     #header
       .container_12
@@ -29,10 +29,10 @@
       #banner
         #congresso.grid_4.prefix_1.alpha
           %a{ :href => "/"}
-            %img{ :src => "images/bg/bg-congresso.png", :alt => "XXI Congresso Brasileiro de Fruticultura" }
-          %img.date{ :src => "images/bg/bg-data.png", :alt => "XXI Congresso Brasileiro de Fruticultura" }
+            %img{ :src => "/images/bg/bg-congresso.png", :alt => "XXI Congresso Brasileiro de Fruticultura" }
+          %img.date{ :src => "/images/bg/bg-data.png", :alt => "XXI Congresso Brasileiro de Fruticultura" }
         #fruitbox.grid_5.prefix_2.omega
-          %img.cxfruit{ :src => "images/bg/bg-fruits.png", :alt => "XXI Congresso Brasileiro de Fruticultura" }
+          %img.cxfruit{ :src => "/images/bg/bg-fruits.png", :alt => "XXI Congresso Brasileiro de Fruticultura" }
     #conteudo
       %div{:class => "container_12 #{layout_type}"}
         #content.content_12
@@ -48,39 +48,39 @@
         #promocao.grid_2.prefix_1.alpha
           %h6 PROMOÇÃO
           %a{ :href => "http://www.sbfruti.com.br", :target => "_blank"}
-            %img{ :src => "images/sponsors/logo-sbf.jpg", :alt => "Sociedade Brasileira de Fruticultura - SBF", :height => "70px" }
-          %img.sep{ :src => "images/sponsors/bg-separator.jpg", :height => "70px" }
+            %img{ :src => "/images/sponsors/logo-sbf.jpg", :alt => "Sociedade Brasileira de Fruticultura - SBF", :height => "70px" }
+          %img.sep{ :src => "/images/sponsors/bg-separator.jpg", :height => "70px" }
         #realizacao.grid_3
           %h6 REALIZAÇÃO
           %a{ :href => "http://www.emparn.rn.gov.br", :target => "_blank"}
-            %img{ :src => "images/sponsors/logo-emparn.png", :alt => "Empresa de Pesquisa Agropecuária do Rio Grande do norte - EMPARN" }
+            %img{ :src => "/images/sponsors/logo-emparn.png", :alt => "Empresa de Pesquisa Agropecuária do Rio Grande do norte - EMPARN" }
           %a{ :href => "http://www.ufersa.edu.br", :target => "_blank"}
-            %img#ufersa{ :src => "images/sponsors/logo-ufersa.jpg", :alt => "UFERSA" }
-          %img.sep{ :src => "images/sponsors/bg-separator.jpg", :height => "70px" }
+            %img#ufersa{ :src => "/images/sponsors/logo-ufersa.jpg", :alt => "UFERSA" }
+          %img.sep{ :src => "/images/sponsors/bg-separator.jpg", :height => "70px" }
         #apoio.grid_5
           %h6 APOIO
           #apoio-imagens
             %a{ :href => "http://www.embrapa.br/", :target => "_blank"}
-              %img{ :src => "images/footer-logo/logo-embrapa.jpg", :alt => "Embrapa", :height => "30px" }
+              %img{ :src => "/images/footer-logo/logo-embrapa.jpg", :alt => "Embrapa", :height => "30px" }
             %a{ :href => "http://www.ufrn.br/ufrn/", :target => "_blank"}           
-              %img{ :src => "images/footer-logo/logo-ufrn.jpg", :alt => "UFRN", :height => "28px" }
+              %img{ :src => "/images/footer-logo/logo-ufrn.jpg", :alt => "UFRN", :height => "28px" }
             %a{ :href => "http://www.rn.gov.br/", :target => "_blank"}
-              %img{ :src => "images/footer-logo/logo-governo.jpg", :alt => "Governo de Todos", :height => "55px"}
+              %img{ :src => "/images/footer-logo/logo-governo.jpg", :alt => "Governo de Todos", :height => "55px"}
             %a{ :href => "http://www.cnpq.br/", :target => "_blank"}
-              %img{ :src => "images/footer-logo/logo-cnpq.jpg", :alt => "CNPq", :height => "35px"}
+              %img{ :src => "/images/footer-logo/logo-cnpq.jpg", :alt => "CNPq", :height => "35px"}
             %br
             %a{ :href => "http://sebrae.com.br/", :target => "_blank"}
-              %img{ :src => "images/footer-logo/logo-sebrae.jpg", :alt => "SEBRAE", :height => "36px"}
+              %img{ :src => "/images/footer-logo/logo-sebrae.jpg", :alt => "SEBRAE", :height => "36px"}
             %a{ :href => "http://www.ifrn.edu.br/", :target => "_blank"}
-              %img{ :src => "images/footer-logo/logo-ifrn.jpg", :alt => "IFRN", :height => "30px"}
+              %img{ :src => "/images/footer-logo/logo-ifrn.jpg", :alt => "IFRN", :height => "30px"}
             %a{ :href => "http://natal.rn.gov.br/", :target => "_blank"}
-              %img{ :src => "images/footer-logo/logo-prefeitura.jpg", :alt => "Prefeitura do Natal", :height => "40px"}
+              %img{ :src => "/images/footer-logo/logo-prefeitura.jpg", :alt => "Prefeitura do Natal", :height => "40px"}
         #organizacao.grid_2.omega
-          %img.sep{ :height => "70px",  :src => "images/sponsors/bg-separator.jpg"}
+          %img.sep{ :height => "70px",  :src => "/images/sponsors/bg-separator.jpg"}
           #organizacao-imagens
             %h6 ORGANIZAÇÃO
             %a{ :href => "http://www.ideiaseventos.com.br", :target => "_blank"}
-              %img{ :src => "images/sponsors/logo-ideias.jpg", :alt => "Idéias Eventos", :height => "55px" }
+              %img{ :src => "/images/sponsors/logo-ideias.jpg", :alt => "Idéias Eventos", :height => "55px" }
     %script{ :type => "text/javascript", :src => "http://ajax.googleapis.com/ajax/libs/jquery/1.3.2/jquery.min.js" }
     - %w(jquery.validate localization/messages_ptbr).each do |js_file|
       = script_tag("#{js_file}.js")
@@ -113,4 +113,4 @@
             %img{ :src => "../images/bg/l_es.png"}
 
     %a.sbf{ :href => "http://www.sbfruti.com.br/associa.htm", :title => "Associe-se na SBF", :target => "_blank"}
-      %img{ :src => "images/bg/bg-selo.png", :height => "126", :alt => "Associe-se na SBF"}
+      %img{ :src => "/images/bg/bg-selo.png", :height => "126", :alt => "Associe-se na SBF"}
