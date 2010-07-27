@@ -68,22 +68,25 @@ p { font-size: 14px; margin-bottom: 20px; }
 #sponsor { margin-top: 35px; text-align: center; }
 #sponsor h6 { font-size: 10px; font-weight: normal; margin-bottom: 5px;  }
 
-#promocao { margin-left: 20px; }
-#promocao .sep { margin-left: 10px; }
+#sponsor ul {height: 100px;}
+#sponsor ul li {list-style:none;}
 
-#realizacao { margin-left: -37px; }
+#promocao { margin-left: 20px; width:90px; float:left;}
+#promocao ul {border-right:1px solid;}
+#promocao #sbf { margin-top:25px;}
+
+#realizacao { margin-left: 5px; width: 90px; float:left;}
+#realizacao ul {border-right:1px solid;}
 #realizacao img { padding-top: 3px; }
 #realizacao img#ufersa { margin-bottom: 12px; padding-right: 5px; }
 #realizacao .sep { margin-top: -21px; }
 
-#apoio { margin-left: -55px; }
+#apoio { width:480px;float:left; }
+#apoio ul li {float:left; width:80px; height:45px;}
 #apoio .sep { margin-left: -2px;}
 
-#apoio-imagens {margin-top: -5px;}
-
-#organizacao { margin-left: -29px; }
+#organizacao { width:80px; float:left; }
 #organizacao .sep { margin-left: -150px; margin-top: 22px; }
-#organizacao-imagens {margin-left: -47px; margin-top: -93px; }
 #organizacao-imagens img { margin-top: 10px; }
 
 .sbf { position: absolute; right: 0; top: 80px; }

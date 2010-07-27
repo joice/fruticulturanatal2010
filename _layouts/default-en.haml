@@ -43,51 +43,72 @@
           - else
             = content
         .clear
+
     #footer.container_12
-      #sponsor.grid_12
-        #promocao.grid_2.prefix_1.alpha
+      #sponsor.grid_10.prefix_1
+        #promocao
           %h6 PROMOTION
-          %a{ :href => "http://www.sbfruti.com.br", :target => "_blank"}
-            %img{ :src => "../images/sponsors/logo-sbf.jpg", :alt => "Sociedade Brasileira de Fruticultura - SBF", :height => "70px" }
-          %img.sep{ :src => "../images/sponsors/bg-separator.jpg", :height => "70px" }
-        #realizacao.grid_3
+          %ul
+            %li
+              %a{ :href => "http://www.sbfruti.com.br", :target => "_blank"}
+                %img#sbf{ :src => "/images/footer-logo/logo-sbf.jpg", :alt => "Sociedade Brasileira de Fruticultura - SBF"}
+        #realizacao
           %h6 EXECUTION
-          %a{ :href => "http://www.emparn.rn.gov.br", :target => "_blank"}
-            %img{ :src => "../images/sponsors/logo-emparn.png", :alt => "Empresa de Pesquisa Agropecu‡ria do Rio Grande do norte - EMPARN" }
-          %a{ :href => "http://www.ufersa.edu.br", :target => "_blank"}
-            %img#ufersa{ :src => "../images/sponsors/logo-ufersa.jpg", :alt => "UFERSA" }
-          %img.sep{ :src => "../images/sponsors/bg-separator.jpg", :height => "70px" }
-        #apoio.grid_5
+          %ul
+            %li
+              %a{ :href => "http://www.emparn.rn.gov.br", :target => "_blank"}
+                %img{ :src => "/images/footer-logo/logo-emparn.png", :alt => "Empresa de Pesquisa Agropecuária do Rio Grande do norte - EMPARN" }
+            %li
+              %a{ :href => "http://www.ufersa.edu.br", :target => "_blank"}
+                %img#ufersa{ :src => "/images/footer-logo/logo-ufersa.jpg", :alt => "UFERSA" }
+        #apoio
           %h6 SUPPORT
           #apoio-imagens
-            %a{ :href => "http://www.embrapa.br/", :target => "_blank"}
-              %img{ :src => "../images/footer-logo/logo-embrapa.jpg", :alt => "Embrapa", :height => "30px" }
-            %a{ :href => "http://www.ufrn.br/ufrn/", :target => "_blank"}           
-              %img{ :src => "../images/footer-logo/logo-ufrn.jpg", :alt => "UFRN", :height => "28px" }
-            %a{ :href => "http://www.rn.gov.br/", :target => "_blank"}
-              %img{ :src => "../images/footer-logo/logo-governo.jpg", :alt => "Governo de Todos", :height => "55px"}
-            %a{ :href => "http://www.cnpq.br/", :target => "_blank"}
-              %img{ :src => "../images/footer-logo/logo-cnpq.jpg", :alt => "CNPq", :height => "35px"}
-            %br
-            %a{ :href => "http://sebrae.com.br/", :target => "_blank"}
-              %img{ :src => "../images/footer-logo/logo-sebrae.jpg", :alt => "SEBRAE", :height => "36px"}
-            %a{ :href => "http://www.ifrn.edu.br/", :target => "_blank"}
-              %img{ :src => "../images/footer-logo/logo-ifrn.jpg", :alt => "IFRN", :height => "30px"}
-            %a{ :href => "http://natal.rn.gov.br/", :target => "_blank"}
-              %img{ :src => "../images/footer-logo/logo-prefeitura.jpg", :alt => "Prefeitura do Natal", :height => "40px"}
-            %a{ :href => "http://www.ibraf.org.br/", :target => "_blank"}
-              %img{ :src => "../images/footer-logo/logo-ibraf.png", :alt => "Instituto Brasileiro de Frutas", :height => "40px"}
-            %br
-            %a{ :href => "http://www.jornaldafruta.com.br/", :target => "_blank"}
-              %img{ :title => "Jornal da Fruta", :src=> "../images/footer-logo/logo-jornaldafruta.jpg", :alt => "Jornal da Fruta", :height => "28" }
-            %a{ :href => "http://www.fapern.rn.gov.br/", :target => "_blank"}
-              %img{ :title => "FAPERN", :src=> "../images/footer-logo/logo-fapern.jpg", :alt => "FAPERN", :height => "30" }
-        #organizacao.grid_2.omega
-          %img.sep{ :height => "70px",  :src => "../images/sponsors/bg-separator.jpg"}
+            %ul
+              %li
+                %a{ :href => "http://www.embrapa.br/", :target => "_blank"}
+                  %img{ :src => "/images/footer-logo/logo-embrapa.jpg", :alt => "Embrapa"}
+              %li
+                %a{ :href => "http://www.ufrn.br/ufrn/", :target => "_blank"}           
+                  %img{ :src => "/images/footer-logo/logo-ufrn.jpg", :alt => "UFRN"}
+              %li
+                %a{ :href => "http://www.rn.gov.br/", :target => "_blank"}
+                  %img{ :src => "/images/footer-logo/logo-governo.jpg", :alt => "Governo de Todos"}
+              %li
+                %a{ :href => "", :target => "_blank"}
+                  %img{ :src => "/images/footer-logo/logo-ministerio.jpg", :alt => "Governo de Todos"}
+              %li
+                %a{ :href => "http://www.ibraf.org.br/", :target => "_blank"}
+                  %img{ :src => "/images/footer-logo/logo-ibraf.png", :alt => "Instituto Brasileiro de Frutas"}
+              %li
+                %a{ :href => "http://www.jornaldafruta.com.br/", :target => "_blank"}
+                  %img{ :title => "Jornal da Fruta", :src=> "/images/footer-logo/logo-jornaldafruta.jpg", :alt => "Jornal da Fruta"}
+              %li
+                %a{ :href => "http://sebrae.com.br/", :target => "_blank"}
+                  %img{ :src => "/images/footer-logo/logo-sebrae.jpg", :alt => "SEBRAE"}
+              %li
+                %a{ :href => "http://www.ifrn.edu.br/", :target => "_blank"}
+                  %img{ :src => "/images/footer-logo/logo-ifrn.jpg", :alt => "IFRN"}
+              %li
+                %a{ :href => "http://www.cnpq.br/", :target => "_blank"}
+                  %img{ :src => "/images/footer-logo/logo-cnpq.jpg", :alt => "CNPq"}
+              %li
+                %a{ :href => "http://natal.rn.gov.br/", :target => "_blank"}
+                  %img{ :src => "/images/footer-logo/logo-prefeitura.jpg", :alt => "Prefeitura do Natal"}
+              %li
+                %a{ :href => "http://www.fapern.rn.gov.br/", :target => "_blank"}
+                  %img{ :title => "FAPERN", :src=> "/images/footer-logo/logo-fapern.jpg", :alt => "FAPERN"}
+              %li
+                %a{ :href => "", :target => "_blank"}
+                  %img{ :title => "Natal Convention Bureau", :src=> "/images/footer-logo/logo-convention.jpg", :alt => "Natal Convention Bureau"}
+        #organizacao
           #organizacao-imagens
             %h6 ORGANIZATION
-            %a{ :href => "http://www.ideiaseventos.com.br", :target => "_blank"}
-              %img{ :src => "../images/sponsors/logo-ideias.jpg", :alt => "IdŽias Eventos", :height => "55px" }
+            %ul
+              %li
+                %a{ :href => "http://www.ideiaseventos.com.br", :target => "_blank"}
+                  %img{ :src => "/images/sponsors/logo-ideias.jpg", :alt => "Idéias Eventos", :height => "55px" }
+
     %script{ :type => "text/javascript", :src => "http://ajax.googleapis.com/ajax/libs/jquery/1.3.2/jquery.min.js" }
     - %w(jquery.validate localization/messages_ptbr).each do |js_file|
       = script_tag("#{js_file}.js")
