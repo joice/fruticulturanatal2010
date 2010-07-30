@@ -108,12 +108,25 @@ p { font-size: 14px; margin-bottom: 20px; }
 #programacao th { font-weight: bold; padding: 5px; background: #cdddea; }
 #programacao td { padding: 8px; }
 #programacao td.bg_color { background: #d9d9d9; }
- 
+
 /* Tabela Hospedagem */
 #hospedagem { font-size: 12px; width: 757px; }
 #hospedagem td, #hospedagem th { padding: 5px; vertical-align: middle;  text-align: center; border: 1px solid; width: 84px; }
 #hospedagem th { background: #107096; font-weight: bold; color: #FFFFFF; }
 #hospedagem td.big-font { font-size: 16px; }
+
+/*Guests*/
+.guest_detail {display:none;}
+#guest_list li { list-style-type: none !important;}
+#content #guest_list li img {margin-right: 8px;}
+#content #guest_list li a { color: #898989; }
+
+#guest_list .s { margin-left: 15px;}
+#fancybox-wrap, #fancybox-inner {width:600px !important;}
+#fancybox-inner ul {float:left; font-size:13px; width:60%; margin-left:30px;}
+#fancybox-inner li.name {font-size:28px; font-weight:bold; list-style:none; margin-bottom:10px; margin-left:-15px;}
+#fancybox-inner img.photo {float:left; border:8px solid #D4D4D4;}
+
 
 /* Contato */
 #contato fieldset { border: none; }
