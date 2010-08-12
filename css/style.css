@@ -103,7 +103,7 @@ p { font-size: 14px; margin-bottom: 20px; }
 #des_reem .center { text-align: center; }
 
 /* Tabela Programação */
-.programacao { font-size: 12px; width: 860px; }
+.programacao { font-size: 13px; width: 860px; }
 .programacao th, .programacao td { border: 1px solid; vertical-align: middle; }
 .programacao th { font-weight: bold; text-align:center; padding: 5px; background: #cdddea; }
 .programacao td { padding: 8px; }
