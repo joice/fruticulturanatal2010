@@ -1,226 +1,543 @@
 ---
-layout: default-en 
-title: Program
-category: en
+layout: default 
+title: Programação
+javascript_imports: jquery.fancybox-1.3.1.pack guests
 ---
+
 %table.programacao
-  %tr
-    %th TIME/DATE
-    %th
-      10/17/2010
-      %br
-      SUNDAY
-    %th
-      10/18/2010
-      %br
-      MONDAY
-    %th
-      10/19/2010
-      %br      
-      TUESDAY
-    %th
-      10/20/2010
-      %br
-      WEDNESDAY
-    %th 
-      10/21/2010
-      %br
-      THURSDAY
-    %th
-      10/22/2010
-      %br
-      FRIDAY
-  %tr
-    %th(rowspan="3") 8:00 AM
-    %td.bg_color
-    %td(rowspan="6" colspan="3") Mini-courses and Courses (Rooms 1 to 11)
-    %td
-      %strong Conference X 
-      %br
-      Potential of fruit in the biodiesel production
-    %td(rowspan="6")
-      Homemade Fruit Beer Brewing Class and 
-      %br
-      Outside Technical Tours
-  %tr
-    %td.bg_color
-    %td
-      %strong Conference XI
-      %br
-      Features the fruitful in health
-  %tr
-    %td.bg_color
-    %td 
-      %strong Conference XII
-      %br
-      Agricultural instrumentation in the fruit production 
-  %tr
-    %th(rowspan="3") 09:00 AM
-    %td.bg_color
-    %td
-      %strong Round Table X
-      %br
-      Cases of success in the fruit production
-  %tr
-    %td.bg_color
-    %td
-      %strong Round Table XI
-      %br
-      Brazilian Journal of Tropical Fruits
-  %tr
-    %td.bg_color
-    %td
-      %strong Round Table XII
-      %br
-      Evaluation of the efficiency of pollination services in increasing the productivity of tropical fruits
-  %tr
-    %th 10:30 AM
-    %td.bg_color
-    %td(colspan="4")
-      %strong BREAK AND EXHIBITION VISIT
-    %td
-      %strong BREAK
-  %tr
-    %th 11:00 AM
-    %td.bg_color
-    %td(colspan="3") Mini-courses and Courses (Rooms 1 to 11)
-    %td Call for papers (Oral and Posters)
-    %td Homemade Fruit Beer Brewing Class
-  %tr
-    %th 12:00 AM
-    %td.bg_color
-    %td(colspan="4")
-      %strong LUNCH AND SATELLITE SYMPOSIUMS
-    %td
-      %strong LUNCH
-  %tr
-    %th(rowspan="3") 02:00 PM
-    %td.bg_color
-    %td
-      %strong Conference I
-      %br
-      Public policies for the fruit production
-    %td
-      %strong Conference IV
-      %br
-      Importing and exportation of fruits
-    %td
-      %strong Conference VII
-      %br
-      The citrus industry: challenges and opportunities
-    %td(rowspan="6")
-      SBF Assembly and
-      %br
-      Homemade Fruit Beer Brewing Class
-    %td(rowspan="8") Technical Tours
-  %tr
-    %td.bg_color
-    %td
-      %strong Conference II
-      %br
-      Advancements of the biotechnology in the fruit production
-    %td
-      %strong Conference V
-      %br
-      Production of fruit in protected cultivations
-    %td
-      %strong Conference VIII
-      %br
-      Nutrition and Fertilization of Fruit
-  %tr
-    %td.bg_color
-    %td
-      %strong Conference III
-      %br
-      The fruit production on EMBRAPA
-    %td
-      %strong Conference VI
-      %br
-      New advances in defense vegetable of Brazil
-    %td
-      %strong Conference IX
-      %br
-      Use of eco-products of tropical fruit in food
-  %tr
-    %th(rowspan="3") 03:00 PM
-    %td(rowspan="6")
-      %strong REGISTRATION
-    %td
-      %strong Round Table I
-      %br
-      Spondias potential in the fruit production (umbu, caja, cajarana)
-    %td
-      %strong Round Table IV
-      %br
-      New techniques of agro-informatics in the fruit production
-    %td
-      %strong Round Table VII
-      %br
-      Role of research and extension in fruit production
-  %tr
-    %td
-      %strong Round Table II
-      %br
-      Alternative temperate climate fruit crops in the semi-arid
-    %td
-      %strong Round Table V
-      %br
-      New non-destructive methods on the evaluation of fruit maturation
-    %td
-      %strong Round Table VIII
-      %br
-      Soil as an element of supporting the fruit production
-  %tr
-    %td
-      %strong Round Table III
-      %br
-      Fruit of the Amazon: opportunities and market
-    %td
-      %strong Round Table VI
-      %br
-      Role of associations in fruit production
-    %td
-      %strong Round Table IX
-      %br
-      Integrated fruit production
-  %tr
-    %th 04:30 PM
-    %td(colspan="4")
-      %strong BREAK AND EXHIBITION VISIT
-  %tr
-    %th 05:00 PM
-    %td(colspan="3") Call for papers (Oral)
-    %td(rowspan="2") Homemade Fruit Beer Brewing Class
-  %tr
-    %th 06:00 PM
-    %td(colspan="3") Call for papers (Posters)
-    %td Return from Technical Tours
-  %tr
-    %th 07:00 PM
-    %td 
-      %strong  OPENING SESSION
-    %td(colspan="3")
-      %strong CLOSURE OF THE DAY'S ACTIVITIES
-    %td
-      %strong TERMINATION OF THE EVENT AND 
-      %br
-      %strong DELIVERY OF CERTIFICATES
-    %td.bg_color
-  %tr
-    %th 08:00 PM
-    %td Inaugural Conference
-    %td.bg_color(colspan="5")
-  %tr
-    %th 21:00
-    %td Cultural Presentation and Cocktail
-    %td.bg_color(colspan="2")
-    %td
-      %strong Dinner of 40 Years SBF Celebration (opt-in)
-      %br
-      %br
-      %strong Raffle 
-      %br
-      %strong Journal of Fruit:
-      %br
-      01 of '500 Jet Sprayer Arbus'
-    %td.bg_color(colspan="2")
+  %thead
+    %tr.date
+      %th(colspan='2') 10/17 - Sunday
+    %tr
+      %th.hour Time/Date
+      %th.activities Activities
+  %tbody
+    %tr
+      %th 03:00 p.m
+      %td Registration
+    %tr
+      %th 07:00 p.m
+      %td Opening Session
+    %tr
+      %th 08:00 a.m
+      %td
+        %strong Inaugural Conference:
+        Public policies for fruit trees<br/>
+        %strong Lecturer:
+        Afonso Hamm/DF<br/>
+        %strong President:
+        Francisco Cipriano Segundo de Paula/ RN
+    %tr
+      %th 09:00 p.m
+      %td Cultural Presentation and Cocktail
+
+%table.programacao
+  %thead
+    %tr.date
+      %th(colspan='2') 10/18 - Monday
+    %tr
+      %th.hour Time/Date
+      %th.activities Activities
+  %tbody
+    %tr
+      %th(rowspan='10') 08:00 a.m
+      %td
+        %strong Mini-course 01:
+        Growing Organic Fruit <br/>
+        %strong Coordinator:
+        José Araujo Dantas/RN<br/>
+        %strong Professor:
+        Rêmulo de Araujo Carvalho/PB <br/>
+        %strong Professor:
+        Maria Urbana Corrêa Nunes/SE
+    %tr
+      %td
+        %strong Mini-course 02:
+        Biotechnology - Tissue Culture<br/>
+        %strong Coordinator:
+        Cristiane Elizabeth Costa De Macedo/RN<br/>
+        %strong Professor:
+        Ana Cristina Portugal Pinto de Carvalho
+    %tr
+      %td
+        %strong Mini-course 03:
+        Integrated Management of Diseases <br/>
+        %strong Coordinator:
+        Eudes Almeida/RN<br/>
+        %strong Professor: 
+        Edson Batista Lopes/PB<br/>
+        %strong Professor:
+        Laércio Zambolim/MG<br/>
+        %strong Professor:
+        Rui Sales Júnior/RN
+    %tr
+      %td
+        %strong Mini-course 04:
+        Integrated Pest Management <br/>
+        %strong Coordinator: 
+        Jacinto de Luna Batista/PB<br/>
+        %strong Professor: 
+        Marcelo Picanço/MG<br/>
+        %strong Professor: 
+        Rômulo da silva Carvalho/BA<br/>
+        %strong Professor: 
+        César Fanton
+    %tr
+      %td
+        %strong Mini-course 05: 
+        Minimal processing of fruit <br/>
+        %strong Coordinator: 
+        Célio Kersul do Sacramento/BA
+    %tr
+      %td
+        %strong Mini-course 06: 
+        Integrated Fruit Production <br/>
+        %strong Coordinator: 
+        Vitor Hugo de Oliveira/CE<br/>
+        %strong Professor: 
+        David Martins/ES<br/>
+        %strong Professor: 
+        José Rosalvo Andrigueto/ES
+    %tr
+      %td
+        %strong Mini-course 07:  
+        Physiology, quality and post-harvest fruit<br />
+        %strong Coordinator: 
+        Leandro Camargo Neves/PR<br/>
+        %strong Professor: 
+        Daniel Alexandre Neuwald/DEU<br/>
+        %strong Professor: 
+        Afonso Peche Filho/SP<br/>
+        %strong Professor: 
+        Luis Cisnero Zevallos / EUA
+    %tr
+      %td
+        %strong Mini-course 08: 
+        Cultivation of small red fruits<br />
+        %strong Professor: 
+        Flavio Fernandes Júnior/SP<br/>
+        %strong Professor: 
+        Maria do Carmo Bassolis Raseira/RS<br/>
+        %strong Professor: 
+        Rafael Pio/MG<br/>
+        %strong Professor: 
+        Luis Eduardo Correa Antunes/RS<br/>
+        %strong Professor: 
+        Eduardo Pargot/SC<br/>
+        %strong Professor: 
+        Emerson Dias Gonçalves/MG
+    %tr
+      %td
+        %strong Course 01: 
+        Techniques for grape production and influence on wine quality<br />
+        %strong Professor: 
+        Celso Pommer/ RN<br/>
+        %strong Professor: 
+        Patrícia Coelho de Souza Leão/ PE<br/>
+        %strong Professor: 
+        Jeane Martins/RN<br/>
+        %strong Coordinator: 
+        Vander Mendonça/RN
+    %tr
+      %td
+        %strong Course 02: 
+        Manufacture Homemade Fruit Beer<br />
+        %strong Professor: 
+        Marcos Eger/PA<br/>
+        %strong Coordinator: 
+        Edivaldo Galdino Ferreira/PB
+    %tr
+      %th 10:30 a.m
+      %td Break - exhibition visit
+    %tr
+      %th 11:00 a.m
+      %td Mini-courses e courses 
+    %tr
+      %th 12:00 a.m
+      %td Lunch and Satellite Symposiums
+    %tr
+      %th(rowspan='2') 02:00 p.m
+      %td
+        %strong Conference II: 
+        Advancements of the biotechnology in the fruit production<br />
+        %strong Lecturer: 
+        Magdi Ahmed Imbralim Aloufa/ RN<br/>
+        %strong President: 
+        Maria Cléa Santos Alves/ RN
+    %tr
+      %td
+        %strong Conference III: 
+        The fruit production on EMBRAPA<br/>
+        %strong Lecturer: 
+        Pedro Antonio  Arraes Pereira/ DF<br/>
+        %strong President:
+        EMPARN's President
+    %tr
+      %th(rowspan='3') 03:00 p.m
+      %td
+        %strong Round Table I: 
+        Spondias potential in the fruit production (umbu, caja, cajarana)<br />
+        %strong Discussant: 
+        Francisco Xavier de Souza/ CE<br/>
+        %strong Discussant: 
+        Christiane Mendes Cassimiro/ PB<br/>
+        %strong Discussant: 
+        Celio Kersul do Sacramento/ BA<br/>
+        %strong Moderator: 
+        Narendra Narain
+    %tr
+      %td
+        %strong Round Table II: 
+        Alternative temperate climate fruit crops in the semi-arid<br />
+        %strong Discussant:
+        Celso Pommer / RN<br/>
+        %strong Discussant:
+        Antonio Baldo Geraldo Martins/ SP<br/>
+        %strong Discussant:
+        Paulo Roberto Coelho Lopes/ PE<br/>
+        %strong Moderator: 
+        Jose Luis Petri/ SC
+    %tr
+      %td
+        %strong Round Table III: 
+        Fruit of the Amazon: opportunities and market<br />
+        %strong Discussant: 
+        Aparecida Claret De Souza/ AM<br/>
+        %strong Discussant: 
+        Otoniel Ribeiro Duarte/ RR<br/>
+        %strong Discussant: 
+        Raul Dantas Vieira Neto/ SE<br/>
+        %strong Moderator: 
+        Leandro Camargo Neves/ RR
+    %tr
+      %th 04:00 p.m
+      %td Break and Exhibition visit
+    %tr
+      %th 04:10 p.m
+      %td Call for papers (Oral)
+    %tr
+      %th 06:10 p.m
+      %td Call for papers (Posters)
+    %tr
+      %th 07:00 p.m
+      %td Closing the day's activities
+
+%table.programacao
+  %thead
+    %tr.date
+      %th(colspan='2') 10/19 - Tuesday
+    %tr
+      %th.hour Time/Date
+      %th.activities Activities
+  %tbody
+    %tr
+      %th 08:00 a.m
+      %td Mini-course and courses
+    %tr
+      %th 10:30 a.m
+      %td Break and Exhibition visit
+    %tr
+      %th 11:00 a.m
+      %td Mini-course and courses
+    %tr
+      %th 12:00 a.m
+      %td Lunch and Satellite Symposiums
+    %tr
+      %th(rowspan='3') 02:00 p.m
+      %td
+        %strong Conference IV:
+        Genetics in Fruits<br />
+        %strong Lecturer:  
+        François Laurens / SC<br/>
+        %strong President: 
+        José Luiz Petri/ SC
+    %tr
+      %td
+        %strong Conference V: 
+        Produce fruit in greenhouses<br/>
+        %strong Lecturer: 
+        Sérgio Roberto Ruffo/ PR<br/>
+        %strong President: 
+        Vander Mendonça
+    %tr
+      %td
+        %strong Conference VI: 
+        New advances in defense plant in Brazil<br />
+        %strong Lecturer: 
+        Francisco Sergio Ferreira Jardim/ DF<br/>
+        %strong President: 
+        Aureliano Nogueira da Costa/ ES
+    %tr
+      %th(rowspan='3') 03:00 p.m
+      %td
+        %strong Round Table IV: 
+        New techniques of agro-informatics in the fruit production<br />
+        %strong Discussant: 
+        Silvia Maria Fonseca da Silveira Marssuhá<br/>
+        %strong Discussant: 
+        Agrosoft<br/>
+        %strong Discussant: 
+        Sérgio Antonio da Silva / RN<br/>
+        %strong Moderator: 
+        Euder Almeida Ribeiro
+    %tr
+      %td
+        %strong Round Table V: 
+        New non-destructive methods on the evaluation of fruit maturation
+        %strong Discussant: 
+        Ricardo Elesbão Alves/ CE<br/>
+        %strong Discussant: 
+        José Carlos Fachinello/ RS<br/>
+        %strong Discussant: 
+        Edvan Alves Chagas/ RR<br/>
+        %strong Moderator: 
+        Joston Simão de Assis/ PE
+    %tr
+      %td
+        %strong Round Table VI: 
+        Role of associations in the fruit production<br />
+        %strong Discussant: 
+        José Eduardo Borges/ BA<br/>
+        %strong Discussant: 
+        Wilson Galdino de Andrade/ RN<br/>
+        %strong Discussant: 
+        Representante da IBRAF<br/>
+        %strong Moderator: 
+        Luiz Carlos Donadio/ SP
+    %tr
+      %th 04:00 p.m
+      %td Break and Exhibition visit
+    %tr
+      %th 04:10 p.m
+      %td Call for papers (Oral)
+    %tr
+      %th 06:10 p.m
+      %td Call for papers (Posters)
+    %tr
+      %th 07:00 p.m
+      %td Closing the day's activities
+
+%table.programacao
+  %thead
+    %tr.date
+      %th(colspan='2') 20/10 - Wednesday
+    %tr
+      %th.hour Time/Date
+      %th.activities Activities
+  %tbody
+    %tr
+      %th 08:00 a.m
+      %td Mini-course and courses
+    %tr
+      %th 10:30 a.m
+      %td Break and Exhibition visit
+    %tr
+      %th 11:00 a.m
+      %td Mini-course and courses
+    %tr
+      %th 12:00 a.m
+      %td Lunch and Satellite Symposiums
+    %tr
+      %th(rowspan='3') 02:00 p.m
+      %td 
+        %strong Conference VII: 
+        The citrus industry: challenges and opportunities<br />
+        %strong Lecturer:
+        Flávio Favas Neves<br/>
+        %strong President: 
+        Jose Luis Petri/ SC
+    %tr
+      %td
+        %strong Conference VIII:
+        Nutrition and Fertilization of Fruit<br />
+        %strong Lecturer:
+        Wilian Natale/ SP<br/>
+        %strong President: 
+        José Renato Zanini
+    %tr
+      %td
+        %strong Conference IX:
+        Use of eco-products of tropical fruit in food<br />
+        %strong Lecturer: 
+        Ana Lúcia Gabas/ DF<br/>
+        %strong President: 
+        Adriano Henrique do Nascimento Rangel/ RN
+    %tr
+      %th(rowspan='3') 03:00 p.m
+      %td
+        %strong Round Table VII: 
+        Role of research and extension in fruit production<br />
+        %strong Discussant: 
+        Mario Amorim/ RN<br/>
+        %strong Discussant: 
+        Baldonedo Artur Napoleão/ MG<br/>
+        %strong Moderator: 
+        Abel Rebouças/ BA
+    %tr
+      %td
+        %strong Round Table VIII : 
+        Soil as a factor in support of fruit<br />
+        %strong Discussant: 
+        José Simplício de Holanda/ RN<br/>
+        %strong Discussant: 
+        Luciano Silva Souza/ BA<br/>
+        %strong Discussant: 
+        Laércio Duarte Souza/ BA<br/>
+        %strong Moderator: 
+        Fernando Luis Dutra Cintra/ SE
+    %tr
+      %td
+        %strong Round Table IX : 
+        Integrated fruit production<br />
+        %strong Discussant: 
+        Luis Carlos Bhering Nasser/ DF<br/>
+        %strong Discussant:  
+        José Rosalvo Andrigueto<br/>
+        %strong Discussant: 
+        Raimundo Braga Sobrinho/ CE<br/>
+        %strong Moderator: 
+        Rosilene Ferreira Souto/ DF
+    %tr
+      %th 04:00 p.m
+      %td Break and Exhibition visit
+    %tr
+      %th 04:10 p.m
+      %td Call for papers (Oral)
+    %tr
+      %th 06:10 p.m
+      %td Call for papers (Posters)
+    %tr
+      %th 07:00 p.m
+      %td Closing the day's activities
+    %tr
+      %th 09:00 p.m
+      %td 
+        Dinner of 40 Years SBF Celebration (opt-in)<br />
+        Raffle - Journal of Fruit: 01 of '500 Jet Sprayer Arbus'
+
+%table.programacao
+  %thead
+    %tr.date
+      %th(colspan='2') 10/21 - Thursday
+    %tr
+      %th.hour Time/Date
+      %th.activities Activities
+  %tbody
+    %tr
+      %th(rowspan='3') 08:00 a.m
+      %td
+        %strong Conference X: 
+        Potential fruit production of biodiesel (coconut, palm kernel, babassu and palm trees)<br />
+        %strong Lecturer:  
+        Edson Eduardo Melo Passos/ SE<br/>
+        %strong President: 
+        Eduardo Stuchi/ SP
+    %tr
+      %td
+        %strong Conference XI: 
+        Functionality of fruit for health<br />
+        %strong Lecturer:
+        Ricardo Elesbão<br/>
+        %strong President:  
+        Márcia Vizzoto
+    %tr
+      %td
+        %strong Conference XII: 
+        Agricultural instrumentation in the fruit production
+        %strong Lecturer: 
+        Marcos David Ferreira/ SP<br/>
+        %strong President: 
+        Flavio Zanette/ PR
+    %tr
+      %th(rowspan='4') 09:00 a.m
+      %td
+        %strong Round Table X: 
+        Cases of success in the fruit production<br />
+        %strong Discussant: 
+        Luiz Carlos Porto/ RN<br/>
+        %strong Moderator: 
+        Franco Marinho Ramos/ RN
+    %tr
+      %td
+        %strong Round Table XI: 
+        Brazilian Journal of Tropical Fruits<br />
+        %strong Discussant: 
+        Narendra Narain / SE<br/>
+        %strong Discussant: 
+        Moacir Pasqual <br/>
+        %strong Discussant: 
+        Joâo Pedro Valente/ MT<br/>
+        %strong Moderator: 
+        Carlos Rugierro/ DF
+    %tr
+      %td
+        %strong Round Table XII: 
+        Evaluation of the efficiency of pollination services in increasing the productivity of tropical fruits<br />
+        %strong Discussant: 
+        Blandina Felipe Viana/ BA<br/>
+        %strong Discussant: 
+        Marcia Maues/ BA<br/>
+        %strong Discussant:  
+        Lucia Helena Piedade Kiill/ PE <br/>
+        %strong Moderator: 
+        Gerbson Mendonça/RN
+    %tr
+      %td
+        %strong Round Table XIII: 
+        The citrus industry: challenges and opportunities<br />
+        %strong Discussant: 
+        Francois Laurens/ França<br/>
+        %strong Discussant: 
+        Daniel Alexandre Neuwald / Alemanha<br/>
+        %strong Discussant: 
+        Luis Cisnero Zevallos/ EUA<br/>
+        %strong Moderator: 
+        Leandro de Camargo Neves
+    %tr
+      %th 10:30 a.m
+      %td Break and Exhibition visit
+    %tr
+      %th 10:40 a.m
+      %td Call for papers (Oral and Posters)
+    %tr
+      %th 12:00 a.m
+      %td Call for papers (Oral and Posters)
+    %tr
+      %th 02:00 p.m
+      %td SBF Assembly and Courses
+    %tr
+      %th 04:30 p.m
+      %td Break and Exhibition visit
+    %tr
+      %th 05:00 p.m
+      %td Courses
+    %tr
+      %th 07:00 p.m
+      %td Closing Ceremony and delivery of certificates
+
+%table.programacao
+  %thead
+    %tr.date
+      %th(colspan='2') 10/22 - Friday
+    %tr
+      %th.hour Time/Date
+      %th.activities Activities
+  %tbody
+    %tr
+      %th 08:00 a.m
+      %td Courses and Outside Technical Tours
+    %tr
+      %th 10:30 a.m
+      %td Break
+    %tr
+      %th 11:00 a.m
+      %td Courses
+    %tr
+      %th 12:00 a.m
+      %td Lunch
+    %tr
+      %th 02:00 p.m
+      %td Outside Technical Tours
+    %tr
+      %th 06:00 p.m
+      %td End of Technical Tours
