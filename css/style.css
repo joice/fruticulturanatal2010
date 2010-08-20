@@ -79,7 +79,7 @@ p { font-size: 14px; margin-bottom: 20px; }
 #realizacao { margin-left: 5px; width: 90px; float:left;}
 #realizacao ul {border-right:1px solid;}
 #realizacao img { padding-top: 3px; }
-#realizacao img#ufersa { margin-bottom: 12px; padding-right: 5px; }
+#realizacao img#ufersa { padding-right: 5px; }
 #realizacao .sep { margin-top: -21px; }
 
 #apoio { width:480px;float:left; }
