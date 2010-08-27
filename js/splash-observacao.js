@@ -3,7 +3,7 @@ jQuery(document).ready(function($){
         'hideOnContentClick': true,
         'autoDimensions': false,
         'height':300,
-        'width':300,
+        'width':150,
         'onClosed': function(){
             $("#observacoes_popup").hide();
         }
