@@ -150,3 +150,7 @@ p { font-size: 14px; margin-bottom: 20px; }
 .flag {margin-right:8px;}
 
 .abstracts-list li {display:block; margin-bottom:10px;}
+
+.ideias-span { font-size: 14px; text-align:center; }
+.ideias-span span { display: block; }
+.ideias-span .company { font-weight: bold; }
